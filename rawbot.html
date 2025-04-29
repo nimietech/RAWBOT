@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="rawbot.css">
+    <link rel="icon" href="assets/favicon.png" type="image/png" />
+
+    <style>
+      /* Default styling */
+      .project-card p{
+        margin-top: 50px;
+      }
+  
+      /* Media Query for devices with a width of 768px or smaller */
+      @media (max-width:1024px) {
+        .project-card p{
+          margin-top: 0;
+        }
+      }
+    </style>
+</head>
+<body>
+
+    <!-- section navbar start -->
+    <section class="navbar">
+        <div class="nav-container">
+          <div class="logo" style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
+            <img src="assets/logo2.png" alt=""> <span><h1>RAWBOT</h1></span>
+          </div>
+      
+          <div class="nav-links">
+            <div class="dropdown">
+              <a href="rawbot.html" class="actives">Home</a>
+            </div>
+      
+            <div class="dropdown">
+              <a href="">Projects</a>
+              <div class="dropdown-content">
+                <a href="#projects">Student Projects</a>
+                <a href="#project1">RAWBOT Innovations</a>
+              </div>
+            </div>
+      
+            <div class="dropdown">
+              <a href="#">Partners</a>
+              <div class="dropdown-content">
+                <a href="#partner">Our School Partners</a>
+                <a href="form.html">Become a Partner</a>
+              </div>
+            </div>
+      
+            <div class="dropdown">
+              <a href="#">Contact Us</a>
+              <div class="dropdown-content">
+                <a href="form.html">Book a Demo</a>
+                <a href="https://wa.me/2349057417726">WhatsApp Us</a>
+              </div>
+            </div>
+
+            <div class="nav-btn">
+              <a href="form.html">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    <!-- section navbar stop -->
+  
+
+    <!-- HERO SECTION START -->
+     <section class="hero-section">
+        <div class="hero-carousel">
+            <div class="slide"  style="background-image:url('assets/hero1.jpg')"></div>
+            <div class="slide active" style="background-image:url('assets/home.png')"></div>
+            <div class="slide" style="background-image:url('assets/home2.jpg')"></div>
+        </div>
+
+        <div class="hero-content">
+            <h1> Educate. Innovate. Automate.</h1>
+            <p>Inspiring young minds to build the future through robotics, coding, and tech education.</p>
+            
+            <div class="hero-btn">
+                <a href="#services">Explore Programs</a>
+            </div>
+        </div>
+
+        <div class="carousel-dots">
+            <span class="dot"></span>
+            <span class="dot active-dot"></span>
+            <span class="dot"></span>
+        </div>
+     </section>
+    <!-- HER0 SECTION STOP -->
+
+
+        <!-- PROJECT SECTION START  -->
+
+        <section class="project-section" id="projects">
+          <div class="header">
+            <h2>Our Projects</h2>
+          </div>
+  
+          <div class="project-grid">
+  
+            <div class="project-card text-card">
+              <p>At RAWBOT, we believe the best way to learn is by building real things. Our students take on hands-on projects that challenge their creativity, logic, and problem-solving skills. From coding smart obstacle-avoiding cars to building simple websites and crafting custom robotic arms — these projects show what young minds can do with the right guidance.</p>
+            </div>
+  
+              <div class="project-card video-card">
+                <div class="video-container">
+                  <iframe
+                    src="https://www.youtube.com/embed/W2DWhKN_bF8"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allowfullscreen
+                    style="width: 100%; height: 100%; border: none;">
+                  </iframe>
+                </div>
+
+                <div class="about-btn" style="margin-top: 25px;">
+                  <a href="https://www.youtube.com/@Build_Brag" target="_blank">
+                    <button>View More</button>
+                  </a>
+                </div> 
+              </div>
+  
+              <div class="project-card video-card" id="project1">
+                <div class="video-container">
+                  <iframe
+                    src="https://www.youtube.com/embed/VDOJCg1KfzY"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allowfullscreen
+                    style="width: 100%; height: 100%; border: none;">
+                  </iframe>
+                </div> 
+
+                <div class="about-btn" style="margin-top: 25px;">
+                  <a href="https://www.youtube.com/@rawbotmedia" target="_blank">
+                    <button>View More</button>
+                  </a>
+                </div>  
+              </div>
+              
+              <div class="project-card text-card">
+                <p>Beyond the classroom, RAWBOT drives internal innovation by developing smart tech solutions and mini-prototypes. Our team is always exploring new ways to merge automation with everyday problems — from smart Light  to interesting games anyone can have fun with.</p>
+              </div>
+            
+          </div>
+       </section>
+  
+      <!-- PROJECT SECTION STOP  -->
+
+    <!-- ABOUT SECTION START -->
+    <section class="about-section">
+        <div class="about">
+            <div class="about-img" style="margin-top: 30px;">
+                <img src="assets/aboutus.jpg" alt="" class="img" style="border-radius: 10px;">
+            </div>
+
+            <div class="about-content">
+                <div class="about-header">
+                    <h2>About Us</h2>
+                </div>
+
+                <p>
+                  RAWBOT stands for Robotics And Automation With the Building Of Tomorrow. We are a forward-thinking educational company committed to empowering the next generation with the skills they need to innovate, automate, and lead in a technology-driven world.
+                </p>
+
+                <div class="about-btn">
+                   <a href="about.html"><button> Learn more </button></a> 
+                </div>   
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION STOP -->
+
+    <!-- SERVICE SECTION START -->
+     <section class="service-section" id="services">
+        <div class="service-header">
+            <h2>Our Services</h2>
+            <p>Explore what we offer at RAWbot Tech</p>
+        </div>
+
+        <div class="service-grid">
+            <div class="service-card" data-aos="fade-up">
+                <div class="icon">💻</div>
+                <h3>Coding Training</h3>
+                <p>We teach modern web and software development using project-based learning.</p>
+                <div class="about-btn" style="margin-top:18px;">
+                  <a href="service.html"> <button>Learn More</button> </a>
+              </div> 
+            </div>
+      
+            <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="icon">🛠️</div>
+                <h3>Robotics Training</h3>
+                <p>Hands-on robotics lessons for kids and teens using real components and fun challenges.</p>
+                <div class="about-btn" style="margin-top:18px;">
+                  <a href="service.html"> <button>Learn More</button> </a>
+              </div> 
+            </div>
+      
+            <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon">🌐</div>
+                <h3>Website Development</h3>
+                <p>We build responsive and modern websites for schools, E-commerce businesses, startups, and personal brands.</p>
+                <div class="about-btn" style="margin-top:18px;">
+                  <a href="service.html"> <button>Learn More</button> </a>
+              </div> 
+            </div>
+        </div>
+
+     </section>
+    <!-- SERVICE SECTION STOP -->
+
+    <!-- TESTIMONIAL SECTION START -->
+    <section class="testimonials-section">
+        <div class="testimonial-container">
+          <h2 class="section-title">Look what Our Clients Say!</h2>
+          <div class="divider"></div>
+      
+          <div class="testimonial-grid">
+            <!-- Testimonial Card 1 -->
+            <div class="testimonial-card">
+              <div class="quote">“</div>
+              <p class="testimonial-text">
+                I highly recommend RAWbot Tech. They were attentive to our needs and worked tirelessly to deliver. We couldn’t be happier!
+              </p>
+              <div class="client-info">
+                <img src="assets/testimony1.jpeg" alt="Client" class="client-photo">
+                <div class="client-details">
+                  <p class="client-name">Mr Barbara D. Smith</p>
+                  <div class="client-rating">★ ★ ★ ★ </div>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Testimonial Card 2 -->
+            <div class="testimonial-card">
+              <div class="quote">“</div>
+              <p class="testimonial-text">
+                Their robotics program was incredibly hands-on and fun for our students. I’d definitely recommend them to other schools!
+              </p>
+              <div class="client-info">
+                <img src="assets/testimonial2.jpg" alt="Client" class="client-photo">
+                <div class="client-details">
+                  <p class="client-name">Mrs Debby</p>
+                  <div class="client-rating">★ ★ ★ ★ ★</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    <!-- TESTIMONIAL SECTION STOP -->
+
+    <!-- PARTNER SECTION START -->
+
+    <section class="partner-section" id="partner">
+
+      <div class="service-header" style="margin-bottom: 50px;">
+        <h2 style="text-align: center;">Our Partners</h2>
+      </div>
+      
+      <div class="brand-slider">
+        <div class="brand-track">
+          <div class="brand">
+            <img src="assets/brand4.jpg" alt="Brand 1" />
+          </div>
+          <div class="brand">
+            <img src="assets/brand3.jpg" alt="Brand 2" />
+          </div>
+          <div class="brand">
+            <img src="assets/brand2.jpg" alt="Brand 3" />
+          </div>
+          <div class="brand">
+            <img src="assets/brand1.jpg" alt="Brand 4" />
+          </div>
+          <!-- You can add more brands -->
+        </div>
+      </div>
+    </section>
+    
+    <!-- PARTNER SECTION STOP -->
+
+    <!-- FOOTER SECTION START -->
+    <footer class="site-footer">
+
+        <div class="footer-container">
+      
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Programs</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-section">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="about.html">About RAWbot</a></li>
+              <li><a href="#">Our Team</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-section">
+            <h4>Legal</h4>
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section socials">
+            <h4>Follow Us</h4>
+            <div class="social-icons">
+              <a href="#" title="Facebook"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook"></a>
+              <a href="#" title="Instagram"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram"></a>
+              <a href="#" title="TikTok"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/tiktok.svg" alt="TikTok"></a>
+              <a href="#" title="YouTube"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/youtube.svg" alt="YouTube"></a>
+            </div>
+            <div class="contact-links">
+              <p><a href="https://wa.me/2349057417726" target="_blank">Chat with us on WhatsApp 💬</a></p>
+              <p><a href="https://mail.google.com/mail/?view=cm&to=samindex07@gmail.com" target="_blank" rel="noopener noreferrer">Send us an Email 📧</a></p>
+            </div>
+          </div>
+          
+        </div>
+      
+        <div class="footer-bottom">
+          <p>&copy; 2025 RAWbot Tech. All rights reserved.</p>
+        </div> 
+
+    </footer>
+
+    <!-- FOOTER SECTION STOP -->
+     
+    <script src="rawbot.js"></script>
+</body>
+</html>
